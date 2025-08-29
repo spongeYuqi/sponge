@@ -97,11 +97,11 @@ export default function Intro() {
             >
               <TypeAnimation
                 sequence={[
-                  "Super Individual",
+                  "Creative Implementer",
                   1000,
-                  "Full Stack Developer",
+                  "Interdisciplinary Talent",
                   1000,
-                  "Digital Nomad",
+                  "Multidimensional Learner",
                   1000,
                 ]}
                 wrapper="span"
@@ -140,7 +140,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link> */}
 
-        <Link
+        {/* <Link
           target="_blank"
           className="bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href={
@@ -152,7 +152,7 @@ export default function Intro() {
         >
           {t("download_cv")}
           <HiDownload />
-        </Link>
+        </Link> */}
         <a
           className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/spongeYuqi"
@@ -184,20 +184,20 @@ export default function Intro() {
         <Link
           
           className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="/部署教程指南.docx"
+          href="/部署指南.docx"
           download
         >
           <FaFileWord />
         </Link>
-        <a
+        {/* <a
           className=" bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2  rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://spongebob.vip"
           target="_blank"
         >
           {t("blog")}
 
-          {/* <FaGithubSquare /> */}
-        </a>
+          // <FaGithubSquare />
+        </a> */}
       </motion.div>
     </section>
   )
