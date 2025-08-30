@@ -1,6 +1,6 @@
 import React from "react";
-import { FaReact, FaVuejs, FaGithub, FaWeixin, FaGlobe  } from "react-icons/fa";
-import { LuGraduationCap, LuMusic, LuGlobe2 } from "react-icons/lu";
+import { FaReact, FaVuejs, FaGithub, FaWeixin, FaGlobe, FaRegHandshake, FaHandshake, FaHandPointUp, FaHandPointer  } from "react-icons/fa";
+import { LuGraduationCap, LuMusic, LuGlobe2, LuBaby,  } from "react-icons/lu";
 import tank from '@/public/tank.png';
 import NetEasemusic from "@/public/NetEasemusic.png";
 import cupt from "@/public/cupt.jpg";
@@ -63,7 +63,7 @@ export const experiencesData = [
         description:
             "With a strong interest, independent learning to build a personal website, equivalent to the completion of a wish. From the purchase and registration of the server and domain name to the subsequent complex filing, as well as the deployment and launch of the final project, a person went through a lot of learning and consulting materials to complete the whole process, during which I encountered a lot of bugs, but continuous learning makes me feel happy! Full of power!",
         icon: React.createElement(FaGlobe),
-        date: "2024 Dec - 2025 Feb",
+        date: "2025 Feb",
     },
     {
         title: "Personal wechat public account creation and operation",
@@ -79,7 +79,7 @@ export const experiencesData = [
         description:
             "When the website was being built, I opened the growth footprint of my wechat public account, and it showed that I had only published three articles since I registered it on October 5th. The last article was on October 8th, and I had not published any more since then. Due to my studies and various miscellaneous trifles, I did not develop the habit of constantly updating my public account. I hope I can take this private traffic platform and help myself become a super individual!",
         icon: React.createElement(FaWeixin),
-        date: "2024 Oct - On the way",
+        date: "2024 Oct",
     },
     {
         title: "NetEase cloud music partner",
@@ -87,7 +87,7 @@ export const experiencesData = [
         description:
             "October 18 officially became NetEase cloud music partner, very happy! Since I went to college, the entertainment I choose most is listening to music. Music can cheer me up and make me face all kinds of difficulties positively. It is an indispensable part of relieving pressure in my study and life. However, sometimes I will be addicted to the song, and even sway my body to the melody, and make a video for it because I love a song.",
         icon: React.createElement(LuMusic),
-        date: "2024 Oct - In progress",
+        date: "2024 Oct",
     },
     {
         title: "Join Github",
@@ -95,40 +95,62 @@ export const experiencesData = [
         description:
             "Late at night on September 12th, I remembered that I was still studying in the dormitory with my computer on, and my roommates were already lying in bed. I turned on the lamp to successfully enter the big family of Github. I felt very happy, because I realized that this was another new attempt. Improving myself, I enjoy it!",
         icon: React.createElement(FaGithub),
-        date: "2024 Sep - In practice",
+        date: "2024 Sep",
     },
 
 ]
 
 export const experiencesDataZn = [
     {
+        "title": "Trae on campus",
+        "location": "首期主讲人",
+        "description": "进一步自我驱动，跨维认知，踏出壁垒，发现学校已有的小程序中的二手信息板块有很大的挖掘提升空间后即刻启动执行 —— 今天的创造力，不取决于你手里有多少牌，而在于你怎么组合它们。",
+        icon: React.createElement(FaHandPointer),
+        "date": "2025 年 4 月"
+    },
+    {
         "title": "个人网站搭建",
         "location": "spongebob.vip",
-        "description": "凭借浓厚的兴趣，自主学习搭建起个人网站，相当于完成了一个心愿。从服务器和域名的购买注册到后续的复杂备案，以及最终项目的全部部署上线，一个人通过大量的学习和查阅资料走完了全程，这期间遇到的Bug不少，但是不断地学习让我感到快乐！动力十足！",
+        "description": "凭借探索实践的兴趣，自主学习搭建起个人网站，相当于完成了一个心愿。从服务器和域名的购买注册到最终项目的全部部署上线（2 月 6 日），一个人通过大量的学习和查阅资料走完了全程，这期间遇到的Bug不少，但是不断地学习让我感到快乐！动力十足！",
         icon: React.createElement(FaGlobe),
-        "date": "2024年12月 - 2025年2月"
+        "date": "2025 年 2 月"
+    },
+    {
+        "title": "数字化创新大赛",
+        "location": "跨校辅导",
+        "description": "带队斩获校赛冠军与全国 A 类竞赛二等奖；后续将项目经验转化为辅导能力，为 15 余个省份的高校团队提供从选题、建模到答辩的全环节支持，凭借技术咨询服务获利超万元，期间同步积累了项目管控、团队协调及技术传授的实战经验。",
+        icon: React.createElement(FaHandshake),
+        "date": "2024 年 12 月"
     },
     {
         "title": "个人微信公众号创建运营",
         "location": "芥泥糖",
-        "description": `在网站搭建之时，我翻开我的微信公众号的成长足迹，显示从10月5日注册的公众号，只发表了3次文章，最后一次文章是在10月8日，之后就再也没发表过了，因为学业以及各种乱七八糟的琐事，使我没有养成这个习惯去不断地更新我的公众号，希望自己能够好好把我这个私域流量平台，助力自己成为超级个体！`,
+        "description": "网站搭建期间，我同步注册了微信公众号（10 月 5 日注册），仅发布过 3 篇内容，10 月 8 日后便暂未更新。目前正像打磨个人网站一样梳理内容定位，待明确方向后，会继续在这里记录作品集、成长历程与感悟，借分享推动自我反思，也期待能给他人带来启发。",
         "icon": React.createElement(FaWeixin),
-        "date": "2024年10月 - 在路上"
+        "date": "2024 年 10 月"
     },
     {
         "title": "网易云音乐合伙人",
         "location": "芥泥糖",
-        "description": "10月18日正式成为网易云音乐合伙人，异常高兴！自从上大学后，选择的娱乐方式最多的就是听歌，音乐能振奋我，让我积极的面对种种的困难，是我在学习生活中舒缓压力的不可缺少的一部分。不过有时候会听歌上瘾，甚至会随着旋律摇摆身体，也会因为爱上一首歌而为它特地制作视频。",
+        "description": "10 月 18 日正式成为网易云音乐合伙人，异常高兴！自从上大学后，选择的娱乐方式最多的就是听歌，音乐能振奋我，让我积极的面对种种的困难，是我在学习生活中舒缓压力的不可缺少的一部分。偶尔会为心仪旋律投入创作，会为喜爱的歌制作专属视频，在音乐中享受表达的乐趣。",
         "icon": React.createElement(LuMusic),
-        "date": "2024年10月 - 持续中"
+        "date": "2024 年 10 月"
     },
     {
         "title": "入驻Github",
         "location": "SpongeYuqi",
-        "description": "9月12日深夜我记着我还在开着电脑在寝室进行学习，室友们都已经躺床上了，我开着台灯操作到入驻Github这个大家庭成功这一步骤，我深感喜悦，因为我意识到，这是又一次的新尝试，人生就是不断的尝试和历练自己，接触不同的领域就是不断地刷新自我，提升自我，我乐在其中！",
+        "description": "9 月 12 日深夜我记着我还在开着电脑在寝室进行学习，室友们都已经躺床上了，我开着台灯操作到入驻Github这个大家庭成功这一步骤，我深感喜悦，因为我意识到，这是又一次的新尝试，人生就是不断的尝试和历练自己，接触不同的领域就是不断地刷新自我，提升自我，我乐在其中！",
         "icon": React.createElement(FaGithub),
-        "date": "2024年9月 - 践行中"
+        "date": "2024 年 9 月"
     },
+    {
+        "title": "省物理学术竞赛",
+        "location": "主辩 2/3 场",
+        "description": "大一 5 月 13 日，我作为代表前往哈尔滨工业大学参加这项比赛。那时虽显稚嫩，研究与辩论能力都尚在起步阶段，但这次经历却成了我大学期间的重要起点 —— 让我敢于站上讲台、乐于展现自己，更埋下了持续提升、主动探索的种子！",
+        "icon": React.createElement(LuBaby),
+        "date": "2023 年 5 月"
+    },
+    
 ]
 
 
@@ -273,9 +295,9 @@ export const competenciesData = [
     "Multisim",
     "Proteus",
     "Keil",
-    "PLC",
-    "Matlab",
     "Fusion360",
+    "Matlab",
+    "PLC",
     "C4D",
     "Trae",
     "Coze",

@@ -153,7 +153,7 @@ export default function Project({
 
               <div className="flex gap-3 text-sm text-gray-500 dark:text-gray-300">
                 {" "}
-                {demoUrl && (
+                {demoUrl && demoUrl.trim() !== '' && (
                   <Link
                     href={demoUrl}
                     target="_blank"
