@@ -19,7 +19,7 @@ export default function Projects() {
         {" "}
         {activeLocale === "zh"
           ? headerLanguageMap["Projects"]
-          : "Featured Projects"}
+          : "Practices & Highlights"}
       </SectionHeading>
       <div>
         {projectsData.map((project, index) => (

@@ -8,9 +8,9 @@
     },
     "SectionName": {
         "about": "About me",
-        "experience": "Experience",
-        "projects": "Projects",
-        "skills": "Skills"
+        "timeline": "My Timeline",
+        "projects": "Practices & Highlights",
+        "competencies": "My Competencies"
     },
     "AboutSection": {
         "desc": "Hello everyone, I am a passionate person who loves learning and exploration. Now I am an undergraduate majoring in electrical engineering. Although my professional background is more traditional engineering, I have a strong interest in emerging technology fields, especially AI, programming and development."

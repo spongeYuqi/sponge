@@ -7,6 +7,15 @@ import cupt from "@/public/cupt.jpg";
 import xb2 from "@/public/xb2-node.jpg";
 import airiot from "@/public/airiot.png";
 import draws from "@/public/draws.jpg";
+import second01 from "@/public/second01.png";
+import output from "@/public/output.png";
+import second02 from "@/public/second02.jpg";
+import tankv3 from '@/public/tankv3.jpg';
+import Dig from '@/public/Dig.jpg';
+import air2 from '@/public/air2.jpg';
+import backweb from '@/public/backweb.jpg';
+import xd2 from '@/public/xd2.jpg';
+
 
 export const links = [
     {
@@ -22,12 +31,12 @@ export const links = [
         hash: "#projects",
     },
     {
-        name: "Skills",
-        hash: "#skills",
+        name: "Competencies",
+        hash: "#competencies",
     },
     {
-        name: "Experiences",
-        hash: "#experience",
+        name: "Timeline",
+        hash: "#timeline",
     },
     // {
     //     name: "Contact",
@@ -39,9 +48,9 @@ export const links = [
 export const headerLanguageMap = {
     Home: '首页',
     About: '关于我',
-    Projects: '我的项目',
-    Skills: '我的技能',
-    Experiences: '我的经历',
+    Projects: '实践・亮点',
+    Competencies: '能力・特质',
+    Timeline: '时间线',
 }
 
 export const experiencesData = [
@@ -124,25 +133,47 @@ export type ProjectTags = typeof projectsData[number]["tags"];
 
 export const projectsData = [
     {
+        "title": "ByteDance Trae on campus keynote speaker",
+        "title_zh": "字节跳动 Trae on campus 首期直播主讲人",
+        "description":
+            "Developed a campus second-hand marketplace WeChat mini-program using Trae AI IDE, featuring user login, info publishing and data categorization. Selected as an outstanding case in Trae knowledge base; Invited as keynote speaker to share development experience, attracting 7000+ online viewers.<a href='https://mp.weixin.qq.com/s/dndejmn03CYUM_pkbeHksQ' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[Tweet]</a>",
+            "desc_zh": "运用国内首个AI IDE Trae制作校园二手仓微信小程序，集用户登录，信息发布，数据分类等功能于一体，入选 Trae on campus 知识库优秀案例；作为优秀项目作者，受邀担任主讲人，分享开发历程、交流技术经验，吸引7000+在线观众。<a href='https://mp.weixin.qq.com/s/dndejmn03CYUM_pkbeHksQ' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[推文]</a>",
+        "tags": ["AI", "Trae", "Wechat Developer"],
+        "imageUrl": second02,
+        //"projectUrl": "https://b23.tv/bEJYAIN",
+        "demoUrl": "https://lcnziv86vkx6.feishu.cn/wiki/DoBtwiinliUM60keIRcc35C3nbe?from=from_copylink"
+    },
+    {
         "title": "Multi-functional fire tank 3D digital innovation design",
-        "title_zh": "绝境卫戍——全维度智能应急平台",
+        "title_zh": "绝境卫戍—全维度智能应急平台",
         "description":
             "It aims to innovate the design of a multi-functional anti-disaster tank track vehicle, which integrates multiple functional modules in one, and this highly integrated design greatly improves the comprehensive rescue capability of a single platform.",
         "desc_zh": "旨在创新设计一款多功能抗灾坦克履带车，其集成了高强度履带、深度相机、热融合夜视仪、消防喷头、液压破拆钳、激光雷达、爆闪警示灯以及UWB定位系统等多个功能模块于一身，这种高度集成化设计极大地提高了单一平台的综合救援能力。",
         "tags": ["Fusion360", "C4D", "PR", "PS"],
-        "imageUrl": tank,
+        "imageUrl": tankv3,
         //"projectUrl": "https://b23.tv/bEJYAIN",
-        "demoUrl": " https://b23.tv/bEJYAIN"
+        "demoUrl": "https://b23.tv/bEJYAIN"
     },
     {
-        title: "Backend service based on Node.js combined with \"express\"",
-        title_zh: '基于Node.js结合express框架的后端服务',
+        "title": "Tech Value: Cross-Campus Coaching & Tech Fusion",
+        "title_zh": "技术价值拓展：跨校项目辅导与技术融合落地",
+        "description":
+        "With the 'innovation design' project above, I led as captain—overseeing core 3D modeling and final defense—winning 1st in school and 2nd in national Category A contests. Later, I coached teams from various universities, earning over 10k RMB via consulting and gaining project management & tech teaching experience.",
+        "desc_zh": "依托上序「绝境卫戍」项目，以队长身份牵头核心建模与最终答辩环节，统筹团队节奏，从校赛突围至全国 A 类竞赛，最终斩获校赛第一、国赛二等奖。后续结合项目经验，为 15 余个省份的高校本研团队提供全流程辅导（选题 / 建模 / 答辩），通过咨询服务获利过万元，同步沉淀项目统筹与技术教学经验。",
+        "tags": ["Leadership", "Coaching", "Management"],
+        "imageUrl": xd2,
+        //"projectUrl": "https://b23.tv/bEJYAIN",
+        "demoUrl": "https://b23.tv/VNILYWC"
+    },
+    {
+        title: "Digital Twin & Machine Vision Sorting Line",
+        title_zh: '基于数字孪生的视觉分拣流水线',
         description:
-            "The service integrates user login, authentication, comment, upload files, delete resources and other functions, and brings together the basic application framework and interface usage of nodejs.",
-        desc_zh: "该服务集成了用户登录、验证、评论、上传文件、删除资源等功能，汇集了nodejs基本的应用框架和接口用法，并使用Navicate作为后台Mysql数据集成管理，通过Insomnia验证项目。",
-        tags: ["Nodejs", "TypeScript", "express", "Mysql", "Navicate", "Insomnia"],
-        imageUrl: xb2,
-        demoUrl: 'https://github.com/spongeYuqi/xb2-node',
+            "A collaborative system using Digitaltwinfactory for virtual production line mapping and Sgvision for material recognition, significantly improving sorting accuracy and efficiency.",
+        desc_zh: "通过 Digitaltwinfactory 搭建实体分拣流水线的虚拟孪生场景，实现产线状态实时映射与可视化监控；依托 Sgvision 的机器视觉算法，精准识别物料特征并驱动分拣执行，二者协同大幅提升分拣精度与产线响应效率。",
+        tags: ["Digital twin", "DTF", "Sgvision"],
+        imageUrl: Dig,
+        demoUrl: 'https://b23.tv/Ww0aXvX',
     },
     {
         title: "Smart healthcare regulatory system (AIRIOT)",
@@ -150,8 +181,18 @@ export const projectsData = [
         description: "The intelligent medical system monitoring platform is committed to improving hospital operation efficiency and optimizing resource allocation, while strengthening patient experience and service quality, and forming a comprehensive hospital operation monitoring system.",
         desc_zh: "本项目旨在构建一个基于AIRIOT平台的智能医疗系统监管平台，致力于提升医院运营效率、优化资源配置与管理，同时强化患者体验和服务质量，形成全面的医院运营监控体系。通过操作快捷入口，管理者可快速访问各详细管理模块，实现深度数据挖掘与精细化管理。",
         tags: ["AIRIOT", "Mysql", "Navicate", ],
-        imageUrl: airiot,
-        demoUrl: 'https://www.airiot.tech/',
+        imageUrl: air2,
+        demoUrl: 'https://b23.tv/QsZKsiw',
+    },
+    {
+        title: "Backend service based on Node.js combined with \"express\"",
+        title_zh: '基于Node.js结合express框架的后端服务',
+        description:
+            "The service integrates user login, authentication, comment, upload files, delete resources and other functions, and brings together the basic application framework and interface usage of nodejs.",
+        desc_zh: "该服务集成了用户登录、验证、评论、上传文件、删除资源等功能，汇集了nodejs基本的应用框架和接口用法，并使用Navicate作为后台Mysql数据集成管理，通过Insomnia验证项目。",
+        tags: ["Nodejs", "Mysql", "Navicate", "Insomnia"],
+        imageUrl: backweb,
+        demoUrl: 'https://github.com/spongeYuqi/xb2-node',
     },
     {
         title: "The 11th CUPT",
@@ -189,7 +230,7 @@ export const projectsData = [
 
 ]
 
-export const skillsData = [
+export const competenciesData = [
     "Innovation",
     "Organizational",
     "Leadership",
@@ -220,4 +261,4 @@ export const skillsData = [
     "AE",
     "Airiot",
     "Painting"
-] 
+]
