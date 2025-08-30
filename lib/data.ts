@@ -7,14 +7,17 @@ import cupt from "@/public/cupt.jpg";
 import xb2 from "@/public/xb2-node.jpg";
 import airiot from "@/public/airiot.png";
 import draws from "@/public/draws.jpg";
-import second01 from "@/public/second01.png";
-import output from "@/public/output.png";
 import second02 from "@/public/second02.jpg";
 import tankv3 from '@/public/tankv3.jpg';
 import Dig from '@/public/Dig.jpg';
 import air2 from '@/public/air2.jpg';
 import backweb from '@/public/backweb.jpg';
 import xd2 from '@/public/xd2.jpg';
+import pw from '@/public/pw.jpg';
+import coze3 from '@/public/coze3.jpg';
+import moho2 from '@/public/moho2.jpg';
+import music3 from '@/public/music3.jpg';
+import art1 from '@/public/art1.jpg';
 
 
 export const links = [
@@ -136,8 +139,8 @@ export const projectsData = [
         "title": "ByteDance Trae on campus keynote speaker",
         "title_zh": "字节跳动 Trae on campus 首期直播主讲人",
         "description":
-            "Developed a campus second-hand marketplace WeChat mini-program using Trae AI IDE, featuring user login, info publishing and data categorization. Selected as an outstanding case in Trae knowledge base; Invited as keynote speaker to share development experience, attracting 7000+ online viewers.<a href='https://mp.weixin.qq.com/s/dndejmn03CYUM_pkbeHksQ' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[Tweet]</a>",
-            "desc_zh": "运用国内首个AI IDE Trae制作校园二手仓微信小程序，集用户登录，信息发布，数据分类等功能于一体，入选 Trae on campus 知识库优秀案例；作为优秀项目作者，受邀担任主讲人，分享开发历程、交流技术经验，吸引7000+在线观众。<a href='https://mp.weixin.qq.com/s/dndejmn03CYUM_pkbeHksQ' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[推文]</a>",
+            "Developed a campus second-hand marketplace WeChat mini-program using Trae AI IDE, featuring user login, info publishing and data categorization. Selected as an outstanding case in Trae knowledge base; Invited as keynote speaker to share development experience, attracting 7000+ online viewers.<a href='https://mp.weixin.qq.com/s/dndejmn03CYUM_pkbeHksQ' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[ Tweet ]</a>",
+            "desc_zh": "运用国内首个AI IDE Trae制作校园二手仓微信小程序，集用户登录，信息发布，数据分类等功能于一体，入选 Trae on campus 知识库优秀案例；作为优秀项目作者，受邀担任主讲人，分享开发历程、交流技术经验，吸引7000+在线观众。<a href='https://mp.weixin.qq.com/s/dndejmn03CYUM_pkbeHksQ' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[ 推文 ]</a>",
         "tags": ["AI", "Trae", "Wechat Developer"],
         "imageUrl": second02,
         //"projectUrl": "https://b23.tv/bEJYAIN",
@@ -185,47 +188,76 @@ export const projectsData = [
         demoUrl: 'https://b23.tv/QsZKsiw',
     },
     {
+        title: "Self-developed Site: Docs & Sharing",
+        title_zh: '个人网站独立开发：系统化记录与分享',
+        description:
+            "Self-built personal site for organizing portfolios, growth and insights. Shared via ~100 mins of beginner tutorials with 5k+ site visits. Refined content to boost expression and documentation skills.<a href='https://b23.tv/I8ZcFiO' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[ Tutorial ]</a>",
+        desc_zh: "独立开发个人网站，用于系统化记录个人作品集、成长历程及感悟，旨在通过分享促进自我反思与他人启发。制作并发布总计约100分钟小白教程，总播放量4000+，网站累计访问量5000+。在实践中不断优化内容形式，提升逻辑表达与文档撰写能力。<a href='https://b23.tv/I8ZcFiO' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[ 教程 ]</a>",
+        tags: ["Frontend", "Portfolio", "Teaching"],
+        imageUrl: pw, // 可替换为实际网站截图
+        demoUrl: 'https://spongebob.vip', // 替换为你的网站地址
+    },
+    {
         title: "Backend service based on Node.js combined with \"express\"",
         title_zh: '基于Node.js结合express框架的后端服务',
         description:
             "The service integrates user login, authentication, comment, upload files, delete resources and other functions, and brings together the basic application framework and interface usage of nodejs.",
         desc_zh: "该服务集成了用户登录、验证、评论、上传文件、删除资源等功能，汇集了nodejs基本的应用框架和接口用法，并使用Navicate作为后台Mysql数据集成管理，通过Insomnia验证项目。",
-        tags: ["Nodejs", "Mysql", "Navicate", "Insomnia"],
+        tags: ["Mysql", "Navicate", "Insomnia"],
         imageUrl: backweb,
         demoUrl: 'https://github.com/spongeYuqi/xb2-node',
     },
     {
-        title: "The 11th CUPT",
-        title_zh: '第十一届大学生物理学术竞赛',
-        description: "I participated in this competition as a representative of Harbin Institute of Technology in my freshman year. At that time, my research ability and debate ability were relatively weak. This competition laid the foundation for me to dare to go to the platform, be willing to show myself, constantly improve myself and explore myself.",
-        desc_zh: "这项比赛是我在大一时作为代表前往哈尔滨工业大学参加的，那时候还很稚嫩，无论是研究能力还是辩论能力，都是比较弱的。对于我来说，这次竞赛奠定了我大学敢于上讲台，乐于展现自己，不断提升自我，自我探索的基础。",
-        tags: ["cupt", "iypt", "gypt", "matlab", ],
-        imageUrl: cupt,
-        demoUrl: 'https://gypt.org/',
+        title: "News Generator & Manager via Coze Workflow",
+        title_zh: '基于Coze工作流的新闻生成与管理系统',
+        description:
+            "Coze Workflow system: 5 latest keyword news (text+images) with data storage. Retrieves from DB if duplicate (non-latest) instead of re-generating. AI summary & audio on detail page.",
+        desc_zh: "使用Coze工作流搭建系统，输入关键词即可生成该关键词相关的最新5条新闻（含文字与图片），并实现数据存储功能。若搜索结果与历史存储数据一致（非最新内容），则直接从数据库调取，无需重新生成；详情页支持AI总结新闻内容，同时提供AI朗读总结的功能。",
+        tags: ["Coze", "Workflow", "AI Summary"],
+        imageUrl: coze3, 
+        demoUrl: 'https://www.coze.cn/home', 
     },
+    {
+        title: "Moho Cross-domain Exploration and Rapid Practice",
+        title_zh: "Moho 跨域探索与快速实践",
+        description:
+            "Curiosity-driven exploration of Moho: mastered in a week with engineering background. Translated cross-domain efforts into visualization deliverables via rapid learning/execution. Launched Captain Patch Healing Station secondary channel. <a href='https://b23.tv/RQ7SN9C' target='_blank' style='font-weight:bold;font-style:italic;text-decoration:underline'>[ Captain Channel ]</a>",
+        desc_zh: "出于对新工具的探索欲，以工科背景接触Moho软件，一周内完成掌握；将这种跨领域探索转化为实践成果，完成可视化任务落地，呈现通过快速学习与执行实现领域衔接的过程，并已开设「老船长派奇治愈站」二创频道。<a href='https://b23.tv/RQ7SN9C' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[ 船长频道 ]</a>",
+        tags: ["Rapid", "Cross-domain", "Implementation"],
+        imageUrl: moho2, // 建议使用工具学习过程或跨领域成果的截图
+        demoUrl: "https://b23.tv/ACE5umD" // 可替换为项目成果链接
+    },    
     {
         title: "NetEase cloud music partner",
         title_zh: "网易云音乐合伙人",
         description:
-            `Because of the love of music, willing to share, to become a master of pictures and notes, soon after, received an invitation from the official, became the 1080412 NetEase cloud music partner, and enjoy lifelong VIP rights for 100 days, the current accumulation of more than 2W songs, Lv10, often in the platform to share themselves.
+            `Fueled by love for music and eagerness to share, I excelled in music-related visual/written content. Soon, I got an official invite to be NetEase Cloud Music Partner No. 1080412, with 100-day lifetime VIP. Now I have over 20,000 songs, am Lv10, and share often on the platform.
             `,
         desc_zh: "因为热爱音乐，乐于分享，成为图文笔记达人，不久之后，收到来自官方的邀请，成为第1080412位网易云音乐合伙人，并享受终身VIP权益百天，目前累计听歌2W多首，Lv10，时常在平台分享自己。",
         tags: ["NetEase cloud", "Passion", "Music"],
-        imageUrl: NetEasemusic,
+        imageUrl: music3,
         demoUrl: 'https://music.163.com/#/user/home?id=7816209974',
     },
     {
         title: "Drawing & Reflection",
         title_zh: "绘画 & 反思",
         description:
-            `When I was a child, I could be said to be a painting genius, but as I grew up, I gradually stopped picking up a pen, perhaps because of laziness, hopelessness, and no motivation to stick to it. But from the beginning to the end, the artistic cells still flow, which also allows me to find beauty, create beauty, and strive to do everything I want to do well, adding personal characteristics. 
+            `As a kid, I had a knack for painting. Though I set down my brush later amid life changes, my artistic sense remained—letting me spot and create beauty. I strive for refinement in what I do, adding my own touch. Eager to explore new things, building this personal website has been a fresh, meaningful experience.
             `,
-        desc_zh: "小时候，可谓是绘画天才，但随着长大，渐渐不再拿起笔，可能因为懒惰、无望，也没有坚持下去的动力，即使是天才，也逐渐淹没才能。但是从始至终，艺术细胞依旧流淌，这也让我能发现美，创造美，力求每件我想要做好的事都精益求精，加入个人的特色。这也造就了我爱探索新事物的品质，例如此次个人网站的搭建！",
+        desc_zh: "小时候我对绘画很有天赋，后来虽因成长节奏暂放下画笔，但对艺术的感知一直藏在心里。这份感知让我总能发现生活里的美，也愿意动手创造美。 做事时，我会带着这份对“精致”的追求，试着加入自己的想法和特色；遇到新事物也总想去探索，就像这次亲手搭建个人网站，对我来说就是一次新鲜又有意义的尝试!",
         tags: [ "perseverance", "reproduction"],
-        imageUrl: draws,
+        imageUrl: art1,
         demoUrl: '',
     },
-    
+    // {
+    //     title: "The 11th CUPT",
+    //     title_zh: '第十一届大学生物理学术竞赛',
+    //     description: "I participated in this competition as a representative of Harbin Institute of Technology in my freshman year. At that time, my research ability and debate ability were relatively weak. This competition laid the foundation for me to dare to go to the platform, be willing to show myself, constantly improve myself and explore myself.",
+    //     desc_zh: "这项比赛是我在大一时作为代表前往哈尔滨工业大学参加的，那时候还很稚嫩，无论是研究能力还是辩论能力，都是比较弱的。对于我来说，这次竞赛奠定了我大学敢于上讲台，乐于展现自己，不断提升自我，自我探索的基础。",
+    //     tags: ["cupt", "iypt", "gypt", "matlab", ],
+    //     imageUrl: cupt,
+    //     demoUrl: 'https://gypt.org/',
+    // },
 
 
 ]
