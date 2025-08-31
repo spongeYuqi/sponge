@@ -58,15 +58,31 @@ export const headerLanguageMap = {
 
 export const experiencesData = [
     {
+        title: "Trae on campus live",
+        location: "First Speaker(4.24)",
+        description:
+            "Self-driven to break barriers, identified potential in campus second-hand market feature and implemented improvements - creativity lies not in resources but in how you combine them.",
+        icon: React.createElement(FaHandPointer),
+        date: "2025 Apr",
+    },
+    {
         title: "Personal website building",
         location: "spongebob.vip",
         description:
-            "With a strong interest, independent learning to build a personal website, equivalent to the completion of a wish. From the purchase and registration of the server and domain name to the subsequent complex filing, as well as the deployment and launch of the final project, a person went through a lot of learning and consulting materials to complete the whole process, during which I encountered a lot of bugs, but continuous learning makes me feel happy! Full of power!",
+            "Self-taught to build personal website from scratch, handling server setup to deployment (Feb 6). Despite bugs, the learning process brought joy and motivation.",
         icon: React.createElement(FaGlobe),
         date: "2025 Feb",
     },
     {
-        title: "Personal wechat public account creation and operation",
+        title: "Digital Innovation Competition",
+        location: "Cross-school Coaching",
+        description:
+            "Led team to win school championship and national 2nd prize; later coached teams from 15+ provinces, earning over 10,000 RMB in consulting fees while gaining project management experience.",
+        icon: React.createElement(FaHandshake),
+        date: "2024 Dec",
+    },
+    {
+        title: "Personal wechat public account creation",
         // location: React.createElement("span", {},
         //     React.createElement("a", {
         //         href: "https://www.nio.com/",
@@ -77,7 +93,7 @@ export const experiencesData = [
         // ),
         location: "JieNitang",
         description:
-            "When the website was being built, I opened the growth footprint of my wechat public account, and it showed that I had only published three articles since I registered it on October 5th. The last article was on October 8th, and I had not published any more since then. Due to my studies and various miscellaneous trifles, I did not develop the habit of constantly updating my public account. I hope I can take this private traffic platform and help myself become a super individual!",
+            "Created WeChat public account (Oct 5) during website development, published 3 posts. Currently refining content direction to share portfolio and reflections.",
         icon: React.createElement(FaWeixin),
         date: "2024 Oct",
     },
@@ -85,7 +101,7 @@ export const experiencesData = [
         title: "NetEase cloud music partner",
         location: "JieNitang",
         description:
-            "October 18 officially became NetEase cloud music partner, very happy! Since I went to college, the entertainment I choose most is listening to music. Music can cheer me up and make me face all kinds of difficulties positively. It is an indispensable part of relieving pressure in my study and life. However, sometimes I will be addicted to the song, and even sway my body to the melody, and make a video for it because I love a song.",
+            "Officially became NetEase Cloud Music partner (Oct 18). Music energizes me and helps overcome challenges. Occasionally create videos for favorite songs.",
         icon: React.createElement(LuMusic),
         date: "2024 Oct",
     },
@@ -93,17 +109,24 @@ export const experiencesData = [
         title: "Join Github",
         location: "SpongeYuqi",
         description:
-            "Late at night on September 12th, I remembered that I was still studying in the dormitory with my computer on, and my roommates were already lying in bed. I turned on the lamp to successfully enter the big family of Github. I felt very happy, because I realized that this was another new attempt. Improving myself, I enjoy it!",
+            "Joined GitHub (Sep 12) late at night in dorm. This new attempt made me realize life is about continuous exploration and self-improvement.",
         icon: React.createElement(FaGithub),
         date: "2024 Sep",
     },
-
+    {
+        title: "Provincial Physics Competition",
+        location: "Main Debater (2/3 rounds)",
+        description:
+            "Represented university at Harbin Institute of Technology (May 13). Though inexperienced, this marked my starting point for public speaking and active exploration.",
+        icon: React.createElement(LuBaby),
+        date: "2023 May",
+    },
 ]
 
 export const experiencesDataZn = [
     {
-        "title": "Trae on campus",
-        "location": "首期主讲人",
+        "title": "Trae on campus live",
+        "location": "首期主讲人[4.24]",
         "description": "进一步自我驱动，跨维认知，踏出壁垒，发现学校已有的小程序中的二手信息板块有很大的挖掘提升空间后即刻启动执行 —— 今天的创造力，不取决于你手里有多少牌，而在于你怎么组合它们。",
         icon: React.createElement(FaHandPointer),
         "date": "2025 年 4 月"
