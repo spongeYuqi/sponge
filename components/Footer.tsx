@@ -12,8 +12,8 @@ export default function Footer() {
         <span className="font-semibold">About this website:</span> built with React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, Vercel hosting.
       </p>
       <p className="text-xs">
-        <span className="font-semibold">Last Update:</span> 08/31/2025
-        <span className="font-semibold ml-4">Prior Site Update: </span> 02/13/2025
+        <span className="font-semibold">Latest Update:</span> 09/01/2025
+        <span className="font-semibold ml-4">Prior Update: </span> 02/13/2025
       </p>
       {/* 添加ICP和公安备案信息在同一行 */}
       <div className="mt-4 flex justify-center space-x-2 items-center text-xs text-gray-500 space-x-3">
