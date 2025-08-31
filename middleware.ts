@@ -23,14 +23,14 @@ function detectLocale(req: NextRequest): string | null {
 
 export default function middleware(req: NextRequest) {
     const localeFromBrowser = detectLocale(req);
-    const effectiveLocale = 'en'; // 强制使用'en'作为默认locale
+    const effectiveLocale = 'zh'; // 强制使用'zh'作为默认locale
 
     //console.log('Effective Locale:', effectiveLocale); // 调试信息
 
     // 如果是根路径，则重定向到/en
     if (req.nextUrl.pathname === '/') {
         const url = req.nextUrl.clone();
-        url.pathname = '/en';
+        url.pathname = '/zh';
         return NextResponse.redirect(url);
     }
 

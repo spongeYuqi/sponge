@@ -145,12 +145,20 @@ export default function Project({
         <section className="bg-[#e8eaea] max-w-[55rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[28rem]  transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 ">
           <div className="group pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col items-start gap-3 h-full sm:group-even:ml-[26rem]">
             <div className="flex flex-col gap-3 items-start ">
+              {/* 核心修改：标题添加 demoUrl 非空判断 */}
               <h3 className="text-2xl font-semibold group-hover:text-[#e9882a] dark:group-hover:text-yellow hover:underline">
-                <Link href={demoUrl} target="_blank">
-                  {activeLocale === "zh" ? title_zh : title}
-                </Link>
+                {demoUrl && demoUrl.trim() !== '' ? (
+                  // demoUrl 有效时，渲染可点击链接
+                  <Link href={demoUrl} target="_blank">
+                    {activeLocale === "zh" ? title_zh : title}
+                  </Link>
+                ) : (
+                  // demoUrl 为空时，渲染纯文本（无链接）
+                  <span>{activeLocale === "zh" ? title_zh : title}</span>
+                )}
               </h3>
 
+              {/* Related Link 原有非空判断逻辑保持不变 */}
               <div className="flex gap-3 text-sm text-gray-500 dark:text-gray-300">
                 {" "}
                 {demoUrl && demoUrl.trim() !== '' && (
@@ -166,12 +174,15 @@ export default function Project({
               </div>
             </div>
 
+            {/* 富文本描述渲染保持不变 */}
             <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
               {activeLocale === "zh" 
                 ? <span dangerouslySetInnerHTML={{ __html: desc_zh }} /> 
                 : <span dangerouslySetInnerHTML={{ __html: description }} />
               }
             </p>
+
+            {/* 标签列表保持不变 */}
             <ul className="flex flex-wrap mt-auto gap-2">
               {tags.map((tag, index) => (
                 <li
@@ -184,6 +195,7 @@ export default function Project({
             </ul>
           </div>
 
+          {/* 图片点击放大功能保持不变 */}
           <Image
             src={imageUrl}
             alt="Project I worked on"
@@ -204,7 +216,7 @@ export default function Project({
         </section>
       </motion.div>
 
-      {/* 放大图片层：固定显示尺寸+滚动条，点击背景关闭 */}
+      {/* 图片放大预览层保持不变 */}
       {showLargeImage && (
         <div 
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/80"
