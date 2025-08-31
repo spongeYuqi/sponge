@@ -72,7 +72,7 @@ export default function About() {
            While my background is in traditional engineering📟, I have a deep interest in emerging tech fields like 
            <span className="font-medium italic"> AI, programming </span> 
            and 
-           <span className="font-medium italic"> development</span> 💻. Through continuous learning, I've discovered that interdisciplinary knowledge integration provides broader problem-solving perspectives, gradually shaping my direction of &quot;combining traditional engineering thinking with new technologies&quot;.
+           <span className="font-medium italic"> development</span> 💻. Through continuous learning, I&apos;ve discovered that interdisciplinary knowledge integration provides broader problem-solving perspectives, gradually shaping my direction of &quot;combining traditional engineering thinking with new technologies&quot;.
           </p>
 
           <p className="mb-3">
@@ -88,7 +88,7 @@ export default function About() {
           </p>
 
           <p className="mb-3">
-          I recognize I'm still in early growth stages, needing to refine both technical skills and professional awareness✍. But diverse experiences have cultivated my ability to &quot;quickly adapt and reflect&quot;🧘‍♂. Moving forward, I hope to join a team combining technical atmosphere with growth space🤝, translating potential into value through diligent work while learning systematic approaches from colleagues.   
+          I recognize I&apos;m still in early growth stages, needing to refine both technical skills and professional awareness✍. But diverse experiences have cultivated my ability to &quot;quickly adapt and reflect&quot;🧘‍♂. Moving forward, I hope to join a team combining technical atmosphere with growth space🤝, translating potential into value through diligent work while learning systematic approaches from colleagues.   
           </p>  
 
           <p className="mb-3">
