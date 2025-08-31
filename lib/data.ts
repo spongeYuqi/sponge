@@ -184,7 +184,7 @@ export const projectsData = [
         "title": "ByteDance Trae on campus keynote speaker",
         "title_zh": "字节跳动 Trae on campus 首期直播主讲人",
         "description":
-            "Developed a campus second-hand marketplace WeChat mini-program using Trae AI IDE, featuring user login, info publishing and data categorization. Selected as an outstanding case in Trae knowledge base; Invited as keynote speaker to share development experience, attracting 7000+ online viewers.<a href='https://mp.weixin.qq.com/s/dndejmn03CYUM_pkbeHksQ' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[ Tweet ]</a>",
+            "Built a campus second-hand marketplace WeChat mini-program (Trae AI IDE) with login, publishing and categorization features. Recognized as Trae's outstanding case; served as keynote speaker with 7k+ viewers.<a href='https://mp.weixin.qq.com/s/dndejmn03CYUM_pkbeHksQ' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[ Tweet ]</a>",
             "desc_zh": "运用国内首个AI IDE Trae制作校园二手仓微信小程序，集用户登录，信息发布，数据分类等功能于一体，入选 Trae on campus 知识库优秀案例；作为优秀项目作者，受邀担任主讲人，分享开发历程、交流技术经验，吸引7000+在线观众。<a href='https://mp.weixin.qq.com/s/dndejmn03CYUM_pkbeHksQ' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[ 推文 ]</a>",
         "tags": ["AI", "Trae", "Wechat Developer"],
         "imageUrl": second02,
@@ -208,7 +208,7 @@ export const projectsData = [
         "description":
         "With the 'innovation design' project above, I led as captain—overseeing core 3D modeling and final defense—winning 1st in school and 2nd in national Category A contests. Later, I coached teams from various universities, earning over 10k RMB via consulting and gaining project management & tech teaching experience.",
         "desc_zh": "依托上序「绝境卫戍」项目，以队长身份牵头核心建模与最终答辩环节，统筹团队节奏，从校赛突围至全国 A 类竞赛，最终斩获校赛第一、国赛二等奖。后续结合项目经验，为 15 余个省份的高校本研团队提供全流程辅导（选题 / 建模 / 答辩），通过咨询服务获利过万元，同步沉淀项目统筹与技术教学经验。",
-        "tags": ["Leadership", "Coaching", "Management"],
+        "tags": ["Leadership", "Coaching"],
         "imageUrl": xd2,
         //"projectUrl": "https://b23.tv/bEJYAIN",
         "demoUrl": "https://b23.tv/VNILYWC"
@@ -268,7 +268,7 @@ export const projectsData = [
         description:
             "Curiosity-driven exploration of Moho: mastered in a week with engineering background. Translated cross-domain efforts into visualization deliverables via rapid learning/execution. Launched Captain Patch Healing Station secondary channel. <a href='https://b23.tv/RQ7SN9C' target='_blank' style='font-weight:bold;font-style:italic;text-decoration:underline'>[ Captain Channel ]</a>",
         desc_zh: "出于对新工具的探索欲，以工科背景接触Moho软件，一周内完成掌握；将这种跨领域探索转化为实践成果，完成可视化任务落地，呈现通过快速学习与执行实现领域衔接的过程，并已开设「老船长派奇治愈站」二创频道。<a href='https://b23.tv/RQ7SN9C' target='_blank' style='font-weight: bold; font-style: italic; text-decoration: underline;'>[ 船长频道 ]</a>",
-        tags: ["Rapid", "Cross-domain", "Implementation"],
+        tags: ["Cross-domain", "Implementation"],
         imageUrl: moho2, // 建议使用工具学习过程或跨领域成果的截图
         demoUrl: "https://b23.tv/ACE5umD" // 可替换为项目成果链接
     },    

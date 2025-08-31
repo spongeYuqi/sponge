@@ -22,7 +22,7 @@ const locales = ['en', 'zh'];
 export default getRequestConfig(async ({ locale }) => {
     // 如果请求的locale无效或者为空，强制使用'en'
     if (!locale || !locales.includes(locale as any)) {
-        locale = 'en'; // 强制设置为英文
+        locale = 'zh'; // 强制设置为英文
     }
 
     return {

@@ -101,7 +101,7 @@ export default function Intro() {
                   1000,
                   "Interdisciplinary Talent",
                   1000,
-                  "Multidimensional Learner",
+                  "Versatile Learner",
                   1000,
                 ]}
                 wrapper="span"
