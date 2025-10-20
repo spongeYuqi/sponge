@@ -9,7 +9,7 @@ import airiot from "@/public/airiot.png";
 import draws from "@/public/draws.jpg";
 import second02 from "@/public/second02.jpg";
 import tankv3 from '@/public/tankv3.jpg';
-import Dig from '@/public/Dig.jpg';
+import Dig2 from '@/public/Dig2.jpg';
 import air2 from '@/public/air2.jpg';
 import backweb from '@/public/backweb.jpg';
 import xd2 from '@/public/xd2.jpg';
@@ -220,7 +220,7 @@ export const projectsData = [
             "A collaborative system using Digitaltwinfactory for virtual production line mapping and Sgvision for material recognition, significantly improving sorting accuracy and efficiency.",
         desc_zh: "通过 Digitaltwinfactory 搭建实体分拣流水线的虚拟孪生场景，实现产线状态实时映射与可视化监控；依托 Sgvision 的机器视觉算法，精准识别物料特征并驱动分拣执行，二者协同大幅提升分拣精度与产线响应效率。",
         tags: ["Digital twin", "DTF", "Sgvision"],
-        imageUrl: Dig,
+        imageUrl: Dig2,
         demoUrl: 'https://b23.tv/Ww0aXvX',
     },
     {

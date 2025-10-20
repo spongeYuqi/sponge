@@ -37,7 +37,7 @@ export default function About() {
           为了留存成长轨迹，也为了找到同频交流的伙伴，我在多个平台分享自己的思考😂：微信公众号 “芥泥糖” 和 B 站 “憨憨 burg” 曾记录过技术学习笔记与生活点滴（目前因专注毕业准备暂未更新）；个人朋友圈更像 “成长树洞”😌，会高频分享学习中遇到的难题、踩过的坑，以及偶尔的情绪碎片，既怕 “忘事”，也盼着能和朋友碰撞出思路。
           </div>
           <div>
-          此外，作为网易云音乐合伙人（芥泥糖：享受永久VIP待遇😎），“听歌” 是我调节状态的首选方式，在理性的技术学习之外，也让我保留了一份对生活的感性观察。总之，大量的经历让我学会了从逆境、冲突、失败甚至积极事件中快速恢复的能力。我坚信，坚韧、专注和自信是我最重要的品质之一。
+          此外，作为网易云音乐合伙人（芥泥糖：享受永久VIP待遇😎），“听歌” 是我调节状态的首选方式，在理性的技术学习之外，也让我保留了一份对生活的感性观察。总之，大量的经历让我学会了从逆境、冲突甚至失败事件中快速恢复。我坚信，坚韧、专注和自信是我最重要的品质之一。
           </div>
           <div>
           我清楚自己仍处于成长初期，无论是技术能力还是职场认知都需要打磨✍，但从过去尝试不同兴趣、应对学习难题的经历中，我练就了 “快速调整状态、及时复盘总结” 的能力🧘‍♂️，也愿意主动接纳新鲜事物。未来，我希望能在兼具技术氛围与成长空间的团队中🤝，以 “踏实做事” 的态度，把更多的潜力探索转化为实际价值，同时也期待在与同事的协作中，学到更多系统化的工作方法，找到属于自己的职场节奏👍。
@@ -84,7 +84,7 @@ export default function About() {
           </p>
 
           <p className="mb-3">
-          As a NetEase Cloud Music partner (<span className="font-medium italic"> &quot;JieNitang&quot; </span>: enjoying permanent VIP benefits😎), &quot;listening to music&quot; is my preferred way to recharge. Beyond technical learning, it preserves my emotional connection to life. Numerous experiences have taught me resilience in adversity, conflict, failure and even success. I firmly believe perseverance, focus and confidence are among my most valuable qualities.
+          As a NetEase Cloud Music partner (<span className="font-medium italic"> &quot;JieNitang&quot; </span>: enjoying permanent VIP benefits😎), &quot;listening to music&quot; is my preferred way to recharge. Beyond technical learning, it preserves my emotional connection to life. Numerous experiences have taught me resilience in adversity, conflict and even failure. I firmly believe perseverance, focus and confidence are among my most valuable qualities.
           </p>
 
           <p className="mb-3">
