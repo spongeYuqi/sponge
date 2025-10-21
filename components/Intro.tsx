@@ -184,7 +184,7 @@ export default function Intro() {
         <Link
           
           className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="/部署指南.docx"
+          href="/部署教程指南.docx"
           download
         >
           <FaFileWord />
